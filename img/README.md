@@ -1,1 +1,1 @@
-This directory is a placeholder to store the images. For compatibility with the rpscv package (https://github.com/DrGFreeman/rps-cv), should be placed in directories named *rock*, *paper* and *scissors* according to their class.
+This directory is a placeholder to store the images. For compatibility with the rpscv package (https://github.com/DrGFreeman/rps-cv), images should be placed in directories named *rock*, *paper* and *scissors* according to their respective class.
