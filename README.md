@@ -7,6 +7,13 @@ Checkout the **rps-cv** project repository on GitHub at [DrGFreeman/rps-cv](http
 
 ![banner image](banner.png)
 
+## Notebooks
+The following Jupyter notebooks are included in the repository:
+
+### Classification
+* [*pca-svm_classifier_skopt.ipynb* ](pca-svm_classifier_skopt.ipynb)  
+This notebook shows how to train a Support Vector Machine classifier on the grayscale images using Principal Component Analysis for dimensionality reduction and Bayesian optimization of the model hyperparameters. The model is trained using 75% of the dataset with a five fold cross-validation and achieves a [f1 (micro)](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score) score of 97.44% on a test set of 547 images (the remainig 25% of the dataset)
+
 ## Getting started
 To get started, download or clone this repository:
 ```
@@ -58,7 +65,7 @@ $ conda activate rps-cv-keras
 ```
 Note that this second environment installs the GPU accelerated versions of Keras and the Tensorflow backend. This will only work if your computer is equipped with a Cuda compatible Nvidia GPU. Running the artificial neural network notebooks from this repository is intractable on a CPU.
 
-#### Managing conda environments within Jupyter Lab/Notebook
+### Managing conda environments within Jupyter Lab/Notebook
 To allow changing the conda environments from within Jupyter Lab or Jupyter Notebook, install the `nb_conda` package in the *base* conda environment:
 ```
 (base) $ conda install nb_conda
