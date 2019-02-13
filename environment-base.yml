@@ -1,4 +1,6 @@
 name: rps-cv
+channels:
+  - conda-forge
 dependencies:
   - python>=3.6
   - scikit-learn>=0.20
@@ -7,5 +9,6 @@ dependencies:
   - matplotlib>=3.0
   - opencv>=3.3
   - scikit-image>=0.13
+  - scikit-optimize>0.5
   - pip:
     - git+https://github.com/DrGFreeman/rps-cv
