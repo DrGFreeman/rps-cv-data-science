@@ -1,3 +1,9 @@
+# Project specific entries
+img/rock/*.png
+img/paper/*.png
+img/scissors/*.png
+*.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
