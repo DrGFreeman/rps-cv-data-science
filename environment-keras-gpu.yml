@@ -1,0 +1,12 @@
+name: rps-cv-keras
+dependencies:
+  - python>=3.6
+  - scikit-learn>=0.20
+  - pandas>=0.24
+  - jupyter
+  - matplotlib>=3.0
+  - opencv>=3.3
+  - scikit-image>=0.13
+  - keras-gpu>=2.2
+  - pip:
+    - git+https://github.com/DrGFreeman/rps-cv
