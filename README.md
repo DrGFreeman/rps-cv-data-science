@@ -12,7 +12,7 @@ To get started, download or clone this repository:
 ```
 $ git clone https://github.com/DrGFreeman/rps-cv-data-science.git
 ```
-Then download and extract the [dataset](#dataset) and configure the required [dependencies](#dependencies) as per instructions below.
+Then download and extract the [dataset](#dataset) and install the required [dependencies](#dependencies) as per instructions below.
 
 Once the above steps are completed, launch Jupyter Lab with the command
 ```
@@ -35,7 +35,9 @@ $ rm rps-cv-images.zip
 ```
 
 ## Dependencies
-The Jupyter notebooks in this repository depend on different Python packages. The simplest way to install all the required packages is by using the [Anaconda Distribution](https://www.anaconda.com/distribution/) and the `conda` package manager. Two environment files are provided to setup conda virtual environments, one base environment for the traditional machine learning tasks using Scikit-Learn, and one for both traditional machine learning using Scikit-Learn and deep-learning using the Keras library and GPU accelerated Tensorflow backend.
+The Jupyter notebooks in this repository depend on different Python packages. The simplest way to install all the required packages is by using the [Anaconda Distribution](https://www.anaconda.com/distribution/) and the `conda` package manager.
+
+Two environment files are provided to setup conda virtual environments, one base environment for the traditional machine learning tasks using Scikit-Learn, and one for both traditional machine learning using Scikit-Learn and deep-learning using the Keras library and GPU accelerated Tensorflow backend.
 
 To setup an environment with the base libraries use the *environment-base.yml* environment file:
 ```
