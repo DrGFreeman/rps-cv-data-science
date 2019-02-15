@@ -14,6 +14,10 @@ The following Jupyter notebooks are included in the repository:
 * [*pca-svm_classifier_skopt.ipynb* ](pca-svm_classifier_skopt.ipynb)  
 This notebook shows how to train a Support Vector Machine classifier on the grayscale images using Principal Component Analysis for dimensionality reduction and Bayesian optimization of the model hyperparameters. The model is trained using 75% of the dataset with a five fold cross-validation and achieves a [f1 (micro)](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score) score of 97.44% on a test set of 547 images (the remainig 25% of the dataset)
 
+### Visualization/Interpretation
+* [pca_visualization.ipynb](pca_visualization.ipynb)  
+This notebook presents a visualisation of the Principal Component Analysis (PCA) method used as dimensionality reduction in my **Rock-Paper-Scissors game** project. The objective of the notebook is mainly  to develop an intuition of the meaning of PCA applied to images rather than to present a mathematically rigorous definition of PCA.
+
 ## Getting started
 To get started, download or clone this repository:
 ```
