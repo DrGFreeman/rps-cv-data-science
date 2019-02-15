@@ -37,6 +37,8 @@ $ jupyter notebook
 ## Dataset
 The dataset consists of 2188 images of Rock, Paper and Scissors hand gestures captured from the **rps-cv** game. The dataset is relatively well balanced, with 710, 726 and 752 images of the Rock, Paper and Scissors gestures respectively. The images corresponding to each gesture are stored in subdirectories named *rock*, *paper* and *scissors*.
 
+The dataset is released under the Creative Commons Attribution Share-Alike 4.0 license (CC-BY-SA 4.0).
+
 The dataset can be downloaded from the following link: https://www.dropbox.com/s/sr1iui3zfdk0o53/rps-cv-image.zip. The images can then be extracted into the *img* directory of the cloned repository. On Linux, this can be done from the command line:
 ```
 $ cd rps-cv-data-science
