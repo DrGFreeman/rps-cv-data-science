@@ -19,7 +19,7 @@ This notebook shows how to train a Support Vector Machine classifier on the gray
 This notebook presents a visualisation of the Principal Component Analysis (PCA) method used as dimensionality reduction in my **Rock-Paper-Scissors game** project. The objective of the notebook is mainly  to develop an intuition of the meaning of PCA applied to images rather than to present a mathematically rigorous definition of PCA.
 
 * [*pca_viz-interactive.ipynb*](pca_viz-interactive.ipynb)  
-This notebook is similar to the *pca_visualization* notebook except it uses interactive sliders to display the image reconstruction using principal components.
+This notebook is similar to the *pca_visualization* notebook except it uses interactive sliders to display the image reconstruction using principal components. Note that GitHub does not render the interactive widgets.
 
 ## Getting started
 To get started, download or clone this repository:
