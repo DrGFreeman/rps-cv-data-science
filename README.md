@@ -97,7 +97,7 @@ To allow changing the conda environments from within Jupyter Lab or Jupyter Note
 Jupyter Lab or Jupyter Notebook can then be launched from the *base* environment and the desired kernel (conda environment) selected within Jupyter.
 
 ### Interactive widgets in Jupyter Lab
-To use the interactive widgets in jupyter lab, the ipywidgets jupyter lab extension must be install with the following command:
+To use the interactive widgets in jupyter lab, the ipywidgets jupyter lab extension must be installed with the following command:
 
 ```
 (rps-cv) $ jupyter labextension install @jupyter-widgets/jupyterlab-manager
